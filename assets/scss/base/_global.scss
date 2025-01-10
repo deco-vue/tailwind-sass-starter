@@ -1,0 +1,5 @@
+/* global.scss fayli loyihaning asosiy vizual uslubini belgilaydi. Bu fayl odatda reset.scssdan keyin keladi va umumiy elementlarga stil beradi. */
+@use "../utilities/animations" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;

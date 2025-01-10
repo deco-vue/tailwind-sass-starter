@@ -1,0 +1,13 @@
+// Import base styles
+@use "./base/global";
+@use "./base/reset";
+@use "./base/typography";
+
+// Import layouts
+@use "./layouts/default";
+
+// Import components
+@use "./components/navbar";
+
+// Import pages
+@use "./pages/index";

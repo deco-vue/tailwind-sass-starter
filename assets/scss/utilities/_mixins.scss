@@ -1,0 +1,17 @@
+@mixin media($size) {
+  @media (max-width: $size) {
+    @content;
+  }
+}
+
+@mixin font($fz, $lh, $fw) {
+  font-size: $fz;
+  line-height: $lh;
+  font-weight: $fw;
+}
+
+@mixin fit($fit) {
+  width: 100%;
+  height: 100%;
+  object-fit: $fit;
+}
